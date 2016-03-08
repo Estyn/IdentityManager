@@ -26,7 +26,7 @@
     }
     config.$inject = ["PathBase", "$routeProvider"];
     app.config(config);
-
+    console.log('hi');
     function LayoutCtrl($rootScope, PathBase, idmApi, $location, $window, idmTokenManager, idmErrorService, ShowLoginButton) {
         $rootScope.PathBase = PathBase;
         $rootScope.layout = {};
